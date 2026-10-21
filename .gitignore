@@ -1,0 +1,8 @@
+# Local OAuth credentials
+.env
+.env.*
+!.env.example
+
+# Desktop/runtime artifacts
+node_modules/
+.output/

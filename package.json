@@ -1,0 +1,17 @@
+{
+  "name": "followerpilot",
+  "version": "0.1.0",
+  "description": "Instagram engagement & growth manager — targets, engagement preferences, safe-limit trackers",
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "npx serve .",
+    "desktop": "electron .",
+    "auth-broker": "node auth-broker/server.js",
+    "test": "node test/engine.test.js && node test/auth.test.js"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "serve": "^14.2.0"
+  },
+  "engines": { "node": ">=18" }
+}
